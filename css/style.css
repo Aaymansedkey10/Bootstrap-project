@@ -1,0 +1,201 @@
+/* abdelrahman */
+.bg-header{
+    background-image: url(../images/h1_hero1.jpg);
+    height: 140vh;
+    background-position: center;
+    background-attachment: scroll;
+    position: relative;
+} 
+ .logo-stl:hover{
+    cursor: pointer;
+}
+.navbar-stl{
+    background-color:#263B5C;
+    background-size: cover;
+    z-index: 99999; 
+ }
+
+.nav-item a:hover{
+    color: #65C9BB !important;
+    /* position: absolute; */
+    transition: all 0.5s ease-in-out;
+}
+
+.blogchs-stl li a{
+    color: #263B5C !important;
+}
+.list-dropdown:hover .blogchs-stl{
+    display: block;
+    transition: all 0.5s ease-in-out 1 ;
+}
+.btn-submit{
+    background-color: #F15B43;
+    border-radius: 0%;
+    transition: all 0.5s ease-in-out;
+}
+.btn-submit:hover{
+    border: 1px solid white;
+    background-color: transparent !important;
+}
+.position_text{
+    position: absolute;
+    top: 25%;
+    left: 3%;
+    box-sizing: border-box;
+}
+
+.btn-header {
+    background-color: #65C9BB !important;
+    border-color: transparent !important;
+}
+.btn-header:hover{
+    border: 1px solid white !important;
+    background-color: transparent !important;
+}
+
+/* sofian  */
+.bg-about1{
+    background-color:#FCF2EB;
+}
+.Donate span{
+    color: #65C9BB;
+    font-family: "Jost",sans-serif;
+}
+.Donate h2 {
+    color: #263B5C !important;
+    font-family: "Jost",sans-serif;
+}
+.btn-primary{
+    background-color: #F15B43;
+    color: #fff;
+    border: 2px solid transparent;
+    border: 2px solid #F15B43;
+    transition: all 0.4s ease-in-out;
+}
+.btn-secondary{
+    border: 2px solid #F15B43;
+    color: #F15B43;
+    background-color: white;
+    z-index: 1;
+    box-shadow: inset 0 0 0 #F15B43;
+    transition: all .8s ease-in-out;
+}
+.btn-primary:hover{
+    background-color: white;
+    color: #F15B43;
+    border: 2px solid #F15B43;
+} 
+.btn-secondary:hover{
+    border: 2px solid #F15B43;
+    box-shadow: inset 300px 0 0 #F15B43;
+}
+.btn-outline-primary{
+    background-color: #F15B43;
+    color: #fff;}
+.btn-outline-primary:hover{
+    background: none;
+    border: 2px solid #F15B43;
+    color: #F15B43 !important;
+}
+/* nada  */
+.card {
+    background-color: #F4F2F1;
+}
+.card h3{
+    color:#073272 ;
+}
+.color-span{
+    color: #65C9BB;
+}
+.color-p {
+    color: #263B5C;
+}
+.btn-card{
+    background-color:#F15B43;
+    border: 2px solid #F15B43;
+    color: white;
+    transition: all 0.3s ease-in-out;
+}
+.card:hover h3{
+        color: #F15B43; 
+        transition: all 0.3s ease-in-out;  
+}
+.card:hover .btn-card {
+    outline: 1px solid #F15B43;
+    color: #F15B43;
+    background-color: transparent;
+    transition: all 0.2s ease-in-out;
+}
+/* basheer */
+.how_we{
+    background-image: url(../images/bg-color.jpg);
+    width: 100%;
+}
+/* soufy */
+.btn-control span i:hover {
+    background-color: #F15B43;
+    color: #fff !important;
+}
+.carousel-item .card {
+    background-color: #F4F2F1;
+}
+.card-body h5 {
+    color: #073272;
+    transition: all 0.3s ease-in-out;
+}
+.card-body h5:hover {
+    color: #F15B43;
+    cursor: pointer;
+}
+.card-body P {
+    color: #777777;
+}
+.card-body a{
+    color: #F15B43;
+    border-bottom:2px solid #F15B43;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+}
+.card-body a:hover{
+    word-spacing: 2px;
+    letter-spacing: 1px;
+}
+/* ayman  */
+.footer {
+    color: #fff;
+    background-color: #263B5C;   
+}
+.icon-footer:hover i{
+    transform: rotatey(180deg);
+    transition: all 0.4s ease-in-out;
+
+}
+.p-foot a {
+    text-decoration: none;
+}
+.p-foot:hover a {
+    text-decoration: underline;
+    transition: all 0.8s ease-in-out;
+}
+.join{
+    background-color: #F15B43 !important;
+    transition: all 0.7s ease-in-out;
+}
+.join:hover {
+    background-color: #263B5C !important;
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+.icon-color {
+   color: #65C9BB;
+}
+.foot-color {
+    color: #65C9BB !important;
+}
+.btn-up {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    background-color: #65C9BB;
+}
