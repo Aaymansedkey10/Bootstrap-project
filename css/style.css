@@ -17,7 +17,6 @@
 
 .nav-item a:hover{
     color: #65C9BB !important;
-    /* position: absolute; */
     transition: all 0.5s ease-in-out;
 }
 
@@ -51,6 +50,16 @@
 .btn-header:hover{
     border: 1px solid white !important;
     background-color: transparent !important;
+}
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+@media screen and (max-width: 992px) {
+    .position_text{
+        left: 0%;
+        width: max-content;
+    }
+    
 }
 
 /* sofian  */
